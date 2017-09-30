@@ -1,0 +1,25 @@
+# Hosts file
+
+# Lecture rooms
+[saal-muc]
+#mixer1.lan.c3voc.de
+#encoder.muc.c3voc.de
+encoder-muc.lan.c3voc.de
+
+# Host types
+[encoders]
+encoder-muc.lan.c3voc.de crs_token=z7zT0ixTYCuMqXHdU3CcwCyAxr02SRRH crs_secret=NO3y9B3bFKMPe0JHZpTTnadpfsR0Cc5m
+
+[mixers]
+#encoder.muc.c3voc.de
+
+# Streaming server
+[relays]
+#live.lan.c3voc.de   nginx=yes    nginx_hls_master=yes icecast=yes icecast_push_master=yes ansible_ssh_port=8000 ansible_ssh_host=localhost
+
+# remote
+# master
+#live.ber.c3voc.de   nginx=yes    nginx_hls_master=yes  nginx_frontend_master=yes icecast=yes icecast_push_master=yes
+
+[loadbalancers]
+#live.dus.c3voc.de

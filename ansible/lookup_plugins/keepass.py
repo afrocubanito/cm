@@ -11,13 +11,13 @@ sys.setdefaultencoding('UTF8')
 from ansible.errors import AnsibleError
 from ansible.plugins.lookup import LookupBase
 
-try:
-	from pykeepass import PyKeePass
-except ImportError:
-	raise AnsibleError(
-		"pykeepass is missing - install with pip"\
-		"(preferably into an virtualenv)"
-	)
+#try:
+from pykeepass import PyKeePass
+#except ImportError:
+#	raise AnsibleError(
+#		"pykeepass is missing - install with pip"\
+#		"(preferably into an virtualenv)"
+#	)
 
 SAVED_PASSWORD = None
 
