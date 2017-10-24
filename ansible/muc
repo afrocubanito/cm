@@ -23,3 +23,9 @@ encoder-muc.lan.c3voc.de crs_token=z7zT0ixTYCuMqXHdU3CcwCyAxr02SRRH crs_secret=N
 
 [loadbalancers]
 #live.dus.c3voc.de
+
+
+[minions]
+minion-muc.lan.c3voc.de crs_token="{{ lookup('keepass', 'ansible/worker-groups/minion1.username') }}" crs_secret="{{ lookup('keepass', 'ansible/worker-groups/minion1.password') }}"
+#minion-muc.lan.c3voc.de ansible_host=83.133.179.121 crs_token="{{ lookup('keepass', 'ansible/worker-groups/minion1.username') }}" crs_secret="{{ lookup('keepass', 'ansible/worker-groups/minion1.password') }}"
+
