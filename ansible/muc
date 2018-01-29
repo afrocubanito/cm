@@ -8,7 +8,7 @@ encoder-muc.lan.c3voc.de
 
 # Host types
 [encoders]
-encoder-muc.lan.c3voc.de crs_token=z7zT0ixTYCuMqXHdU3CcwCyAxr02SRRH crs_secret=NO3y9B3bFKMPe0JHZpTTnadpfsR0Cc5m
+encoder-muc.lan.c3voc.de crs_token="{{ lookup('keepass', 'ansible/worker-groups/encoder-muc.username') }}" crs_secret="{{ lookup('keepass', 'ansible/worker-groups/encoder-muc.password') }}"
 
 [mixers]
 mixer-muc.lan.c3voc.de
