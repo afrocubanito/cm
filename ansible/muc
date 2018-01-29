@@ -2,7 +2,7 @@
 
 # Lecture rooms
 [saal-muc]
-#mixer1.lan.c3voc.de
+mixer-muc.lan.c3voc.de
 #encoder.muc.c3voc.de
 encoder-muc.lan.c3voc.de
 
@@ -11,7 +11,7 @@ encoder-muc.lan.c3voc.de
 encoder-muc.lan.c3voc.de crs_token=z7zT0ixTYCuMqXHdU3CcwCyAxr02SRRH crs_secret=NO3y9B3bFKMPe0JHZpTTnadpfsR0Cc5m
 
 [mixers]
-#encoder.muc.c3voc.de
+mixer-muc.lan.c3voc.de
 
 # Streaming server
 [relays]
